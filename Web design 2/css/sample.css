@@ -1,0 +1,11 @@
+@charset "utf-8";
+.box01 {
+	display: flex;
+}
+.box01 img {
+	width: 50%;
+	height: auto;
+}
+.blockTxt {
+	width: 50%;
+}

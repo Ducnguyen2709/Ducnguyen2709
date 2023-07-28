@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>MAKO'S PORTFOLIO</title>
+<!-- TemplateEndEditable -->
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div class="wrap">
+  <header>
+    <h1><a href="../index.html">MAKO'S PORTFOLIO</a></h1>
+    <nav class="global_nav">
+      <ul>
+        <li><a href="../index02.html">home</a></li>
+        <li><a href="../word02.html">work</a></li>
+        <li><a href="../contact02.html">contact</a></li>
+		<li><a href="../sample.html">sample</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main_wrap">
+	  <!-- TemplateBeginEditable name="main]" -->
+	  main]
+	  <!-- TemplateEndEditable -->
+	  
+  </main>
+</div>
+<footer>
+  <p>MAKO'S PORTFOLIO All right reserved.</p>
+</footer>
+</body>
+</html>
