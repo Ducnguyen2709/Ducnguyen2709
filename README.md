@@ -1,16 +1,28 @@
-### Hi there 👋
+### こんにちは、ようこそ 👋
 
-<!--
-**Ducnguyen2709/Ducnguyen2709** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+私の名前は **Duc Nguyen** で、様々なプログラミング言語とツールの経験を持つソフトウェア開発者です。
 
-Here are some ideas to get you started:
+🔭 現在、私は ... に取り組んでいます。
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🌱 現在、私は ... を学んでいます。
+
+👯 私は ... のプロジェクトで協力を求めています。
+
+🤔 私は ... についての助けを探しています。
+
+💬 C#、HTML、JavaScript、Java、Excelについてお尋ねください！
+
+📫 私への連絡方法: [Email](mailto:20937734@hagoromo.ac.jp)
+
+😄 代名詞: 彼/彼
+
+⚡ 面白い事実: ...
+
+- 私の職歴:
+  - C#: 1年
+  - HTML: 3年
+  - Java: 3ヶ月
+  - JavaScript: 1年
+  - Excel: 4年
+
+
