@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Title</title>
+</head>
+
+<body>
+    <main>
+        <div id="start" class="stage active">
+            <div class="start">
+                <div>
+                    <h1 class="start__title">TITLE</h1>
+                    <button class="btn-start" data-next="#q01">START</button>
+                </div>
+            </div>
+        </div>
+        <div id="q01" class="stage">
+            <div class="quiz">
+                <h2 class="quiz__no">QUESTION</h2>
+                <div class="quiz__question">
+                    <p class="scText">ゲームは好きですか？</p>
+                </div>
+                <div class="quiz__answer">
+                    <button class="btn-yes" data-next="#q02" data-score="2">はい</button>
+                    <button class="btn-no" data-next="#q02" data-score="1">いいえ</button>
+
+                </div>
+            </div>
+        </div>
+        <div id="q02" class="stage">
+            <div class="quiz">
+                <h2 class="quiz__no">QUESTION</h2>
+                <div class="quiz__question">
+                    <p class="scText">スポーツは好きですか？</p>
+                </div>
+                <div class="quiz__answer">
+                    <button class="btn-yes" data-next="#q03" data-score="2">はい</button>
+                    <button class="btn-no" data-next="#q03" data-score="1">いいえ</button>
+
+                </div>
+            </div>
+        </div>
+        <div id="q03" class="stage">
+            <div class="quiz">
+                <h3 class="quiz__no">QUESTION</h3>
+                <div class="quiz__question">
+                    <p class="scText">英語は好きですか？</p>
+                </div>
+                <div class="quiz__answer">
+                    <button class="btn-yes" data-next="#q04" data-score="2">はい</button>
+                    <button class="btn-no" data-next="#q04" data-score="1">いいえ</button>
+
+                </div>
+            </div>
+        </div>
+        <div id="q04" class="stage">
+            <div class="quiz">
+                <h4 class="quiz__no">QUESTION</h4>
+                <div class="quiz__question">
+                    <p class="scText">歴史は好きですか？</p>
+                </div>
+                <div class="quiz__answer">
+                    <button class="btn-yes" data-next="#q05" data-score="2">はい</button>
+                    <button class="btn-no" data-next="#q05" data-score="1">いいえ</button>
+
+                </div>
+            </div>
+        </div>
+        <div id="q05" class="stage">
+            <div class="quiz">
+                <h5 class="quiz__no">QUESTION</h5>
+                <div class="quiz__question">
+                    <p class="scText">旅行は好きですか？</p>
+                </div>
+                <div class="quiz__answer">
+                    <button class="btn-yes" data-next="#q06" data-score="2">はい</button>
+                    <button class="btn-no" data-next="#q06" data-score="1">いいえ</button>
+
+                </div>
+            </div>
+        </div>
+        <div id="q06" class="stage">
+            <div class="quiz">
+                <h6 class="quiz__no">QUESTION</h6>
+                <div class="quiz__question">
+                    <p class="scText">泳ぐことは好きですか？</p>
+                </div>
+                <div class="quiz__answer">
+                    <button class="btn-yes" data-next="#q07" data-score="2">はい</button>
+                    <button class="btn-no" data-next="#q07" data-score="1">いいえ</button>
+
+                </div>
+            </div>
+        </div>
+        <div id="q07" class="stage">
+            <div class="quiz">
+                <h7 class="quiz__no">QUESTION</h7>
+                <div class="quiz__question">
+                    <p class="scText">歌うことは好きですか？</p>
+                </div>
+                <div class="quiz__answer">
+                    <button class="btn-yes" data-next="#q08" data-score="2">はい</button>
+                    <button class="btn-no" data-next="#q08" data-score="1">いいえ</button>
+
+                </div>
+            </div>
+        </div>
+        <div id="q08" class="stage">
+            <div class="quiz">
+                <h8 class="quiz__no">QUESTION</h8>
+                <div class="quiz__question">
+                    <p class="scText">人とお話するのは好きですか？</p>
+                </div>
+                <div class="quiz__answer">
+                    <button class="btn-yes" data-next="#q09" data-score="2">はい</button>
+                    <button class="btn-no" data-next="#q09" data-score="1">いいえ</button>
+
+                </div>
+            </div>
+        </div>
+        <div id="q09" class="stage">
+            <div class="quiz">
+                <h9 class="quiz__no">QUESTION</h9>
+                <div class="quiz__question">
+                    <p class="scText">撮影は好きですか？</p>
+                </div>
+                <div class="quiz__answer">
+                    <button class="btn-yes" data-next="#q10" data-score="2">はい</button>
+                    <button class="btn-no" data-next="#q10" data-score="1">いいえ</button>
+
+                </div>
+            </div>
+        </div>
+        <div id="q10" class="stage">
+            <div class="quiz">
+                <h10 class="quiz__no">QUESTION</h10>
+                <div class="quiz__question">
+                    <p class="scText">遊ぶことは好きですか？</p>
+                </div>
+                <div class="quiz__answer">
+                    <button class="btn-yes" data-next="#result" data-score="2">はい</button>
+                    <button class="btn-no" data-next="#result" data-score="1">いいえ</button>
+
+                </div>
+            </div>
+        </div>
+        <div id="result" class="stage">
+            <div class="result">
+                <h11 class="result__title">RESULT</h11>
+                <div class="result__msg">
+                    <p>結果が表示されました</p>
+                </div>
+                <button class="btn-result" data-next="#start">最初に戻る</button>
+            </div>
+        </div>
+
+    </main>
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
